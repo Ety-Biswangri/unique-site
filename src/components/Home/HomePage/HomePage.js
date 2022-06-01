@@ -31,7 +31,7 @@ const HomePage = () => {
 
                             <li className='text-white'>
                                 <IoMdMail style={{ fontSize: "0.9rem", marginRight: '0.4rem' }}></IoMdMail>
-                                <span style={{ fontSize: "0.8rem" }}>Email: info@abc.com</span> / <span style={{ fontSize: "0.8rem" }}>info@def.com</span>
+                                <span style={{ fontSize: "0.8rem" }}>Email: info@gmail.com</span> / <span style={{ fontSize: "0.8rem" }}>system@gmail.com</span>
                             </li>
                         </Nav>
                         <Navbar.Toggle aria-controls="responsive-navbar-nav" />

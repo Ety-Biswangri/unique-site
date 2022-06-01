@@ -11,7 +11,7 @@ const ProjectReport = () => {
                     {/* <Navbar.Toggle aria-controls="responsive-navbar-nav" /> */}
                     {/* <Navbar.Collapse id="responsive-navbar-nav"> */}
                     <Nav>
-                        <Nav.Link as={Link} to="/" className="text-black fs-3 project-report" style={{ width: "20rem", textAlign: "left", fontWeight: "600" }}>
+                        <Nav.Link as={Link} to="/" className="text-black fs-3 project-report" style={{ width: "18rem", textAlign: "left", fontWeight: "600" }}>
                             Project Report
                         </Nav.Link>
                     </Nav>

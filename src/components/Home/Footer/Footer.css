@@ -1,0 +1,28 @@
+.footer {
+    background-color: #2f3e46;
+    height: 12rem;
+}
+
+.footer .footer-icons {
+    height: 8rem;
+    align-items: center;
+}
+
+.footer .extra {
+    border-bottom: 0.1px solid #5e645d;
+}
+
+
+@media screen and (max-width: 991px) {
+    .footer {
+        height: 20rem;
+    }
+
+    .footer .footer-icons {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 15rem;
+    }
+}
