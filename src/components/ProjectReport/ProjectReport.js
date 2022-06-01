@@ -18,7 +18,7 @@ const ProjectReport = () => {
                     <Nav className='d-flex justify-content-around align-items-center w-100'>
                         <Nav.Link href="#dashboard" className="text-black">
                             <span className='text-primary'>Home {">"} </span>
-                            <span className='text-gray'> Project Report</span>
+                            <span className='text-muted'> Project Report</span>
                         </Nav.Link>
                     </Nav>
                     {/* </Navbar.Collapse> */}

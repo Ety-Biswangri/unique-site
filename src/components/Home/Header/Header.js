@@ -6,7 +6,7 @@ import { FaHome } from 'react-icons/fa';
 const Header = () => {
     return (
         <div>
-            <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" style={{ hight: "2rem" }}>
+            <Navbar collapseOnSelect expand="lg" variant="dark" style={{ hight: "2rem", backgroundColor: "#040f16" }}>
                 <Container>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
@@ -16,8 +16,8 @@ const Header = () => {
                             </Nav.Link>
                         </Nav>
                         <Nav className='d-flex justify-content-around align-items-center w-100'>
-                            <Nav.Link as={Link} to="/projectReport" className="text-white">Project Report</Nav.Link>
-                            <Nav.Link href="#dashboard" className="text-white">Events</Nav.Link>
+                            <Nav.Link href="#projectReport" className="text-white">Project Report</Nav.Link>
+                            <Nav.Link href="#events" className="text-white">Events</Nav.Link>
                             <Nav.Link href="#blog" className="text-white">Blog</Nav.Link>
                             <Nav.Link href="#about" className="text-white">About</Nav.Link>
                         </Nav>

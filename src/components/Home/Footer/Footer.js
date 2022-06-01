@@ -14,7 +14,7 @@ const Footer = () => {
                     <div className='d-flex justify-content-around footer-icons' >
                         <p className='text-white' style={{ marginBottom: "0px" }}>
                             <IoMdMail style={{ fontSize: "2.3rem", marginRight: '0.6rem', backgroundColor: "#4361ee", padding: "0.6rem", borderRadius: "50px", color: "white" }}></IoMdMail>
-                            <span style={{ fontSize: "0.8rem" }}>Email: info@gmail.com</span> / <span style={{ fontSize: "0.8rem" }}>system@gmail.com</span>
+                            <span style={{ fontSize: "0.8rem" }}>info@gmail.com</span> / <span style={{ fontSize: "0.8rem" }}>system@gmail.com</span>
                         </p>
 
                         <p className='text-white' style={{ marginRight: "0.5rem", marginBottom: "0px" }}>

@@ -8,6 +8,7 @@ import { GrLinkedinOption } from 'react-icons/gr';
 import '../../Home/HomePage/HomePage.css';
 import ProjectReport from '../../ProjectReport/ProjectReport';
 import Footer from '../Footer/Footer';
+import { Link } from 'react-router-dom';
 
 
 const HomePage = () => {
@@ -56,7 +57,7 @@ const HomePage = () => {
             <div>
                 <Navbar collapseOnSelect expand="lg" bg="white" variant="dark">
                     <Container>
-                        <Navbar.Brand href="#home" style={{ fontWeight: "bold", fontSize: "2rem", textTransform: "uppercase" }}>
+                        <Navbar.Brand as={Link} to="/" style={{ fontWeight: "bold", fontSize: "2rem", textTransform: "uppercase" }}>
                             <span style={{ color: "#e36414" }}>Unique</span>
                             <span style={{ color: "#3a0ca3" }}> Site</span>
                         </Navbar.Brand>
