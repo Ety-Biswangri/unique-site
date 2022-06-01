@@ -7,6 +7,7 @@ import { FaFacebookF } from 'react-icons/fa';
 import { GrLinkedinOption } from 'react-icons/gr';
 import '../../Home/HomePage/HomePage.css';
 import ProjectReport from '../../ProjectReport/ProjectReport';
+import Footer from '../Footer/Footer';
 
 
 const HomePage = () => {
@@ -51,15 +52,21 @@ const HomePage = () => {
                     </Container>
                 </Navbar>
             </div>
+
             <div>
                 <Navbar collapseOnSelect expand="lg" bg="white" variant="dark">
                     <Container>
-                        <Navbar.Brand href="#home" style={{ fontWeight: "bold", fontSize: "2rem", color: "black", textTransform: "uppercase" }}>Unique Site</Navbar.Brand>
+                        <Navbar.Brand href="#home" style={{ fontWeight: "bold", fontSize: "2rem", textTransform: "uppercase" }}>
+                            <span style={{ color: "#e36414" }}>Unique</span>
+                            <span style={{ color: "#3a0ca3" }}> Site</span>
+                        </Navbar.Brand>
                     </Container>
                 </Navbar>
             </div>
+
             <Header></Header>
             <ProjectReport></ProjectReport>
+            <Footer></Footer>
         </div>
     );
 };
