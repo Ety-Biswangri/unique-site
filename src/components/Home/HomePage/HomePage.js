@@ -6,6 +6,7 @@ import { IoMdMail } from 'react-icons/io';
 import { FaFacebookF } from 'react-icons/fa';
 import { GrLinkedinOption } from 'react-icons/gr';
 import '../../Home/HomePage/HomePage.css';
+import ProjectReport from '../../ProjectReport/ProjectReport';
 
 
 const HomePage = () => {
@@ -58,6 +59,7 @@ const HomePage = () => {
                 </Navbar>
             </div>
             <Header></Header>
+            <ProjectReport></ProjectReport>
         </div>
     );
 };

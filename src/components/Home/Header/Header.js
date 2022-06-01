@@ -17,7 +17,7 @@ const Header = () => {
                         </Nav>
                         <Nav className='d-flex justify-content-around align-items-center w-100'>
                             <Nav.Link as={Link} to="/projectReport" className="text-white">Project Report</Nav.Link>
-                            <Nav.Link href="#dashboard" className="text-white">Dashboard</Nav.Link>
+                            <Nav.Link href="#dashboard" className="text-white">Events</Nav.Link>
                             <Nav.Link href="#blog" className="text-white">Blog</Nav.Link>
                             <Nav.Link href="#about" className="text-white">About</Nav.Link>
                         </Nav>
